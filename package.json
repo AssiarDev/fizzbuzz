@@ -1,0 +1,11 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "exo fiche arbre",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "author": "Raissa",
+  "license": "ISC"
+}

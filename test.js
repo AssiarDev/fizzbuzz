@@ -1,7 +1,11 @@
 const test = require('node:test');
 const assert = require('node:assert');
-const { fizzbuzz } = require('./fizzbuzz.js')
+const { fizzbuzz } = require('./index.js')
 
 test('fizzbuzz(3)', (t) => {
   assert.strictEqual(fizzbuzz(3), "Fizz");
+});
+
+test('fizzbuzz(15)', (t) => {
+    assert.strictEqual(fizzbuzz(15), "Fizzbuzz");
 });
